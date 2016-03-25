@@ -1,0 +1,209 @@
+foomatic_rip-postscript.o: filter/foomatic-rip/postscript.c \
+ filter/foomatic-rip/foomaticrip.h config.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/android/api-level.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/stdint.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/_wchar_limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/time.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/time.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/time.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/siginfo.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/page.h \
+ filter/foomatic-rip/util.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/string.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/malloc.h \
+ filter/foomatic-rip/options.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/regex.h \
+ filter/foomatic-rip/renderer.h filter/foomatic-rip/process.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/wait.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/resource.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/resource.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/resource.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm-generic/resource.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/wait.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/signal.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/signal.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm-generic/signal.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/sigcontext.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/unistd.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/syscall.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/errno.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/errno.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/errno.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm-generic/errno.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm-generic/errno-base.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/unistd.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/select.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/sysconf.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/capability.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/pathconf.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/ctype.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/stdlib.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/alloca.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/strings.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/memory.h
+
+filter/foomatic-rip/foomaticrip.h:
+
+config.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/android/api-level.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/stdint.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/_wchar_limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/time.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/time.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/time.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/siginfo.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/page.h:
+
+filter/foomatic-rip/util.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/string.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/malloc.h:
+
+filter/foomatic-rip/options.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/regex.h:
+
+filter/foomatic-rip/renderer.h:
+
+filter/foomatic-rip/process.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/wait.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/resource.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/resource.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/resource.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm-generic/resource.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/wait.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/signal.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/signal.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm-generic/signal.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/sigcontext.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/unistd.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/syscall.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/errno.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/errno.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/errno.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm-generic/errno.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/unistd.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/select.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/sysconf.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/capability.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/pathconf.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/ctype.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/stdlib.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/alloca.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/strings.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/memory.h:

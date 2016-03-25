@@ -1,0 +1,141 @@
+pdftopdf-nup.o: filter/pdftopdf/nup.cc filter/pdftopdf/nup.h \
+ filter/pdftopdf/pptypes.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/cmath \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/c++config.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/os_defines.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/cpu_defines.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/bits/cpp_type_traits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/ext/type_traits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/math.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/android/api-level.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/stdint.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/page.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/utility \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/bits/stl_relops.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/bits/stl_pair.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/bits/move.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/bits/concept_check.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/type_traits \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/initializer_list \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/assert.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/string.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/malloc.h
+
+filter/pdftopdf/nup.h:
+
+filter/pdftopdf/pptypes.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/cmath:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/c++config.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/os_defines.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/cpu_defines.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/bits/cpp_type_traits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/ext/type_traits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/math.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/android/api-level.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/stdint.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/page.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/utility:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/bits/stl_relops.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/bits/stl_pair.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/bits/move.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/bits/concept_check.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/type_traits:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/initializer_list:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/assert.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/string.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/malloc.h:

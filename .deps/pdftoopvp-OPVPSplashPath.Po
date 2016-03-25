@@ -1,0 +1,167 @@
+pdftoopvp-OPVPSplashPath.o: filter/pdftoopvp/oprs/OPVPSplashPath.cxx \
+ config.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/android/api-level.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/stdint.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashMath.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/poppler-config.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/math.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/limits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/page.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashTypes.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/goo/gtypes.h \
+ filter/pdftoopvp/oprs/OPVPSplashPath.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashPath.h \
+ filter/pdftoopvp/oprs/OPVPWrapper.h filter/pdftoopvp/opvp/opvp_common.h \
+ filter/pdftoopvp/opvp/opvp_0_2_0.h filter/pdftoopvp/opvp/opvp.h \
+ filter/pdftoopvp/oprs/OPRS.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashTypes.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/Splash.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashClip.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashMath.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashXPathScanner.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashPattern.h \
+ filter/pdftoopvp/oprs/OPVPSplash.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/typeinfo \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/exception \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/c++config.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/os_defines.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/cpu_defines.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashPattern.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashErrorCodes.h \
+ /home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/CharTypes.h
+
+config.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/android/api-level.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/stdint.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashMath.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/poppler-config.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/math.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/asm/page.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashTypes.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/goo/gtypes.h:
+
+filter/pdftoopvp/oprs/OPVPSplashPath.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashPath.h:
+
+filter/pdftoopvp/oprs/OPVPWrapper.h:
+
+filter/pdftoopvp/opvp/opvp_common.h:
+
+filter/pdftoopvp/opvp/opvp_0_2_0.h:
+
+filter/pdftoopvp/opvp/opvp.h:
+
+filter/pdftoopvp/oprs/OPRS.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashTypes.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/Splash.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashClip.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashMath.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashXPathScanner.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashPattern.h:
+
+filter/pdftoopvp/oprs/OPVPSplash.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/typeinfo:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/exception:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/c++config.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/os_defines.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/cpu_defines.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashPattern.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/splash/SplashErrorCodes.h:
+
+/home/lei/arm-linux-androideabi-4.6/bin/../sysroot/usr/include/CharTypes.h:

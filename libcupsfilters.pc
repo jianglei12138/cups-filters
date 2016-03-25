@@ -1,0 +1,12 @@
+prefix=/system/usr/root
+exec_prefix=/system/usr/root
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+                                                                       
+Name: libcupsfilters
+Description: Library for reading and writing cups filters
+Version: 1.8.3
+
+Libs: -L${libdir} -lcupsfilters
+Libs.private: -lcupsimage -lcups -lz -pthread -lm -liconv -lz -ltiff  
+Cflags: -I${includedir}/cupsfilters

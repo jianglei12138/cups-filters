@@ -1,0 +1,11 @@
+prefix=/system/usr/root
+exec_prefix=/system/usr/root
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+                                                                       
+Name: libfontembed
+Description: Library for de/embedding fonts to pdf
+Version: 1.8.3
+
+Libs: -L${libdir} -lfontembed
+Cflags: -I${includedir}/fontembed

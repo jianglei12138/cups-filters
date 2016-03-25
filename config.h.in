@@ -1,0 +1,259 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Directory where bannertopdf finds its data files (PDF templates) */
+#undef BANNERTOPDF_DATADIR
+
+/* CUPS Version is 1.4 or newer */
+#undef CUPS_1_4
+
+/* acroread binary to use. */
+#undef CUPS_ACROREAD
+
+/* CUPS datadir */
+#undef CUPS_DATADIR
+
+/* "Domain socket of CUPS" */
+#undef CUPS_DEFAULT_DOMAINSOCKET
+
+/* Path to CUPS fonts dir */
+#undef CUPS_FONTPATH
+
+/* gs binary to use */
+#undef CUPS_GHOSTSCRIPT
+
+/* max resolution used for pdftops when converting images */
+#undef CUPS_PDFTOPS_MAX_RESOLUTION
+
+/* Define default renderer */
+#undef CUPS_PDFTOPS_RENDERER
+
+/* pdftocairo binary to use. */
+#undef CUPS_POPPLER_PDFTOCAIRO
+
+/* pdftops binary to use. */
+#undef CUPS_POPPLER_PDFTOPS
+
+/* Path to CUPS binaries dir */
+#undef CUPS_SERVERBIN
+
+/* CUPS serverroot */
+#undef CUPS_SERVERROOT
+
+/* Transient run-time state dir of CUPS */
+#undef CUPS_STATEDIR
+
+/* Define that we provide acroread. */
+#undef HAVE_ACROREAD
+
+/* Define if you have the avahi library */
+#undef HAVE_AVAHI
+
+/* Define if you have Poppler's "cpp/poppler-version.h" header file. */
+#undef HAVE_CPP_POPPLER_VERSION_H
+
+/* Define to 1 if you have the <dirent.h> header file. */
+#undef HAVE_DIRENT_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the <endian.h> header file. */
+#undef HAVE_ENDIAN_H
+
+/* Have FreeType2 include files */
+#undef HAVE_FREETYPE_H
+
+/* Define to 1 if you have the `getline' function. */
+#undef HAVE_GETLINE
+
+/* Define that we provide ghostscript binary */
+#undef HAVE_GHOSTSCRIPT
+
+/* gs supports ps2write */
+#undef HAVE_GHOSTSCRIPT_PS2WRITE
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <jpeglib.h> header file. */
+#undef HAVE_JPEGLIB_H
+
+/* Define if LDAP support should be enabled */
+#undef HAVE_LDAP
+
+/* If libldap implements ldap_set_rebind_proc */
+#undef HAVE_LDAP_REBIND_PROC
+
+/* If LDAP has SSL/TLS support enabled */
+#undef HAVE_LDAP_SSL
+
+/* Define to 1 if you have the <ldap_ssl.h> header file. */
+#undef HAVE_LDAP_SSL_H
+
+/* Defines if we provide jpeg library. */
+#undef HAVE_LIBJPEG
+
+/* Defines if we provide png library. */
+#undef HAVE_LIBPNG
+
+/* Defines if we provide tiff library. */
+#undef HAVE_LIBTIFF
+
+/* Define that we use zlib */
+#undef HAVE_LIBZ
+
+/* Platform supports long long type */
+#undef HAVE_LONG_LONG
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* If LDAP support is that of Mozilla */
+#undef HAVE_MOZILLA_LDAP
+
+/* If LDAP support is that of OpenLDAP */
+#undef HAVE_OPENLDAP
+
+/* Define to 1 if you have the `open_memstream' function. */
+#undef HAVE_OPEN_MEMSTREAM
+
+/* Define that we provide poppler pdftocairo. */
+#undef HAVE_POPPLER_PDFTOCAIRO
+
+/* Define that we provide poppler pdftops. */
+#undef HAVE_POPPLER_PDFTOPS
+
+/* pdftops supports -origpagesizes. */
+#undef HAVE_POPPLER_PDFTOPS_WITH_ORIGPAGESIZES
+
+/* pdftops supports -r argument. */
+#undef HAVE_POPPLER_PDFTOPS_WITH_RESOLUTION
+
+/* Define to 1 if you have the `sigaction' function. */
+#undef HAVE_SIGACTION
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the `strcasestr' function. */
+#undef HAVE_STRCASESTR
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the `strlcat' function. */
+#undef HAVE_STRLCAT
+
+/* Define to 1 if you have the `strlcpy' function. */
+#undef HAVE_STRLCPY
+
+/* Define to 1 if you have the `strtoll' function. */
+#undef HAVE_STRTOLL
+
+/* Define to 1 if you have the <sys/ioctl.h> header file. */
+#undef HAVE_SYS_IOCTL_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <tiff.h> header file. */
+#undef HAVE_TIFF_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the `wait3' function. */
+#undef HAVE_WAIT3
+
+/* Define to 1 if you have the `waitpid' function. */
+#undef HAVE_WAITPID
+
+/* Define to 1 if you have the <zlib.h> header file. */
+#undef HAVE_ZLIB_H
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Needed for pdftopdf filter compilation */
+#undef PDFTOPDF
+
+/* Path for a modern shell */
+#undef SHELL
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Path to font used in tests */
+#undef TESTFONT
+
+/* Defines if use lcms1 */
+#undef USE_LCMS1
+
+/* Version number of package */
+#undef VERSION
+
+/* Enable large inode numbers on Mac OS X 10.5.  */
+#ifndef _DARWIN_USE_64_BIT_INODE
+# define _DARWIN_USE_64_BIT_INODE 1
+#endif
+
+/* Number of bits in a file offset, on hosts where this is settable. */
+#undef _FILE_OFFSET_BITS
+
+/* Define for large files, on AIX-style hosts. */
+#undef _LARGE_FILES
+
+
+#ifdef HAVE_LONG_LONG
+#  define CUPS_LLFMT   "%lld"
+#  define CUPS_LLCAST  (long long)
+#else
+#  define CUPS_LLFMT   "%ld"
+#  define CUPS_LLCAST  (long)
+#endif /* HAVE_LONG_LONG */
+
+#ifdef HAVE_ARC4RANDOM
+#  define CUPS_RAND() arc4random()
+#  define CUPS_SRAND(v) arc4random_stir()
+#elif defined(HAVE_RANDOM)
+#  define CUPS_RAND() random()
+#  define CUPS_SRAND(v) srandom(v)
+#elif defined(HAVE_LRAND48)
+#  define CUPS_RAND() lrand48()
+#  define CUPS_SRAND(v) srand48(v)
+#else
+#  define CUPS_RAND() rand()
+#  define CUPS_SRAND(v) srand(v)
+#endif /* HAVE_ARC4RANDOM */
+

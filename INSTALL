@@ -1,0 +1,183 @@
+INSTALL - OpenPrinting CUPS Filters v1.8.3 - 2016-03-23
+-------------------------------------------------------
+
+This file describes how to compile and install OpenPrinting CUPS
+Filters from source code. For more information on OpenPrinting CUPS
+Filters see the file called "README.txt".  A complete change log can
+be found in "CHANGES.txt".
+
+**** IF YOU HAVE A NON-POSTSCRIPT PRINTER AND ARE NOT       ****
+**** RUNNING MAC OS X, YOU WILL ALSO NEED TO INSTALL GPL    ****
+**** GHOSTSCRIPT WITH THE "cups" DRIVER AFTER YOU INSTALL   ****
+**** CUPS AND BEFORE YOU INSTALL THIS PACKAGE.              ****
+
+
+BEFORE YOU BEGIN
+
+    You'll need ANSI-compliant C and C++ compilers, plus a make program and
+    POSIX-compliant shell (/bin/sh).  The GNU compiler tools and Bash work well
+    and we have tested the current CUPS code against several versions of GCC
+    with excellent results.
+
+    The makefiles used by the project should work with most versions of make.
+    We've tested them with GNU make as well as the make programs shipped by
+    Compaq, HP, SGI, and Sun.  BSD users should use GNU make (gmake) since BSD
+    make does not support "include".
+
+    Poppler, libijs, freetype, fontconfig, and liblcms (liblcms2 recommended) 
+    must be installed to be able to compile this package.
+
+    Note that Poppler has to be compiled with the
+    "--enable-poppler-cpp" configure option (or the
+    "libpoppler-cpp-dev(el)" package has to be installed if the
+    Poppler packages from a Linux distribution are used).
+
+    Besides these tools you'll want the JPEG, PNG, TIFF, ZLIB libraries for
+    image support. CUPS Filters will compile and run without these, however
+    you'll miss out on many of the features provided by CUPS Filters.
+
+    To get cups-browsed, the daemon to browse Bonjour broadcasts of
+    remote CUPS queues and make the queues available locally, you also
+    need libavahi-common and libavahi-client.
+
+COMPILING THE BZR REPOSITORY CODE
+
+    The CUPS Filters BZR repository doesn't hold a copy of the pre-built
+    configure script.  You'll need to run the GNU autoconf software (2.65 or
+    higher) to create it:
+
+        ./autogen.sh
+
+
+CONFIGURATION
+
+    CUPS Filters uses GNU autoconf, so you should find the usual "configure"
+    script in the main CUPS Filters source directory.  To configure CUPS 
+    Filters for your system, type:
+
+	./configure
+
+    The default installation will put the CUPS Filters software in the
+    "/etc" and "/usr" directories on your system, which will overwrite
+    some of the original filters and their auxiliary files of CUPS
+    1.5.x or earlier and the auxiliary files of bannertops in all CUPS
+    versions including version 1.6.x (see also the section "PACKAGING
+    THE SOFTWARE FOR OPERATING SYSTEM DISTRIBUTIONS" below). The
+    system will still have the same functionality as before, but CUPS
+    will not convert all incoming files into PostScript any more, it
+    will convert them into PDF instead and after applying page
+    management (N-up, selected pages, reverse order, ...) by the
+    pdftopdf filter and convert PDF into the printer's native format
+    then (PDF-based printing workflow). CUPS 1.6.x or later does not
+    contain any filters which this package provides. It requires the
+    installation of this package for printing with filters and drivers
+    under Linux (or other non-Mac-OS-X operation systems).
+
+    Use the "--prefix" option to install the CUPS Filters software in another
+    location:
+
+	./configure --prefix=/some/directory
+
+    To see a complete list of configuration options, use the --help option:
+
+        ./configure --help
+
+    If any of the dependent libraries are not installed in a system default
+    location (typically "/usr/include" and "/usr/lib") you'll need to set the
+    CFLAGS, CPPFLAGS, CXXFLAGS, DSOFLAGS, and LDFLAGS environment variables
+    prior to running configure:
+
+	setenv CFLAGS "-I/some/directory"
+	setenv CPPFLAGS "-I/some/directory"
+	setenv CXXFLAGS "-I/some/directory"
+	setenv DSOFLAGS "-L/some/directory"
+	setenv LDFLAGS "-L/some/directory"
+	./configure ...
+
+    or:
+
+	CFLAGS="-I/some/directory" \
+	CPPFLAGS="-I/some/directory" \
+	CXXFLAGS="-I/some/directory" \
+	DSOFLAGS="-L/some/directory" \
+	LDFLAGS="-L/some/directory" \
+	./configure ...
+
+    Once you have configured things, just type:
+
+	make ENTER
+
+    or if you have FreeBSD, NetBSD, or OpenBSD type:
+
+	gmake ENTER
+
+    to build the software.
+
+
+INSTALLING THE SOFTWARE
+
+    Once you have built the software you need to install it.  The "install"
+    target provides a quick way to install the software on your local system:
+
+	make install ENTER
+
+    or for FreeBSD, NetBSD, or OpenBSD:
+
+	gmake install ENTER
+
+PACKAGING THE SOFTWARE FOR OPERATING SYSTEM DISTRIBUTIONS
+
+    The use of cups-filters is supported for CUPS from version 1.5.x
+    on (to switch to the PDF-based printing workflow already now) and
+    required for CUPS 1.6.x (as it does not ship a complete filter set
+    any more). In both cases cups-filters ships some files which exist
+    also in CUPS, but the versions of cups-filters have to be used to
+    assure that printing works correctly. So in the packaging of CUPS
+    the files should be removed.
+
+    Use the alternatives facility (see update-alternatives(8)) only if
+    your CUPS version is 1.5.x and you want to make the use of
+    cups-filters optional. Note that then the files of cups-filters
+    need to have priority.
+
+    When using cups-filters with CUPS 1.5.x, many of the original CUPS
+    filters get replaced or at least useless. Please remove the
+    following files from your CUPS package:
+
+	/usr/lib/cups/backend/serial
+	/usr/lib/cups/backend/parallel
+	/usr/lib/cups/filter/bannertops
+	/usr/lib/cups/filter/commandtoescpx
+	/usr/lib/cups/filter/commandtopclx
+	/usr/lib/cups/filter/imagetops
+	/usr/lib/cups/filter/imagetoraster
+	/usr/lib/cups/filter/pdftops
+	/usr/lib/cups/filter/rastertoescpx
+	/usr/lib/cups/filter/rastertopclx
+	/usr/lib/cups/filter/texttops
+	/usr/share/cups/banners/*
+	/usr/share/cups/data/testprint
+	/usr/share/cups/data/psglyphs
+	/usr/share/cups/fonts/*
+
+    Also comment out all conversion rules which use any of the removed
+    filters. You can do it with the following command line:
+
+	perl -p -i -e 's:^(.*\s+(pdftops|texttops|imagetops|bannertops|imagetoraster)\s*)$:#\1:' /usr/share/cups/mime/mime.convs
+
+    If you use CUPS 1.6.x there is less to remove from the CUPS
+    package. It is only bannertops and its auxiliary files which are
+    in the way for bannertopdf:
+
+	/usr/lib/cups/filter/bannertops
+	/usr/share/cups/banners/*
+	/usr/share/cups/data/testprint
+
+    The conversion rules get commented out via:
+
+	perl -p -i -e 's:^(.*\s+bannertops\s*)$:#\1:' /usr/share/cups/mime/mime.convs
+
+    For CUPS 1.6.x a bug report/feature request is posted to ask for
+    (at least optional) removal of bannertops:
+
+	http://www.cups.org/str.php?L4120
