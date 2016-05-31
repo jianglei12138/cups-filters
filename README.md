@@ -60,12 +60,9 @@ git clone https://github.com/jianglei12138/cups-filters
   - 搜索sbin_PROGRAMS = cups-browsed(EXEEXT)删除cups-browsed(EXEEXT)不编译
 - 修改libtool
 
-  修改libtool文件除去生成动态库的版本后缀数字(不一定需要，我只是看着不爽)
-  - 搜索library_names_spec改为library_names_spec="\\${libname}.so"
-  - 搜索soname_spec改为soname_spec="\\${libname}.so"
 
 - make
-  make可能会遇到头文件存在之类的，给NDK交叉编译工具添加上就行
+  make可能会遇到头文件不存在之类的，给NDK交叉编译工具添加上就行
 
 #### 4.测试
 
